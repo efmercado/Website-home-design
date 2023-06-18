@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+nav {
+    background-color: rgba(248, 249, 250, 0.7);
+}
+
+#brand-name, #nav-links, #social-media-links {
+    list-style-type: none;
+}
+
+#nav-links, #social-media-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-links li, #social-media-links li {
+    margin-left: 10px;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homepage {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#section1 {
+    background-color: #4c4b50;
+    color: white;
+}
+
+#section2 {
+    background: url('https://source.unsplash.com/1600x900/?city') no-repeat center center/cover;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#welcome-text {
+    font-size: 3em;
+}
+
